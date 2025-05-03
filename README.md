@@ -1,55 +1,40 @@
 <h1 align="center">✨ Fullstack Chat & Video Calling App ✨</h1>
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
+<p align="center">
+  <img src="/frontend/public/screenshot-for-readme.png" alt="App Screenshot" width="700"/>
+</p>
 
-Highlights:
-
-- 🌐 Real-time Messaging with Typing Indicators & Reactions
-- 📹 1-on-1 and Group Video Calls with Screen Sharing & Recording
-- 🔐 JWT Authentication & Protected Routes
-- 🌍 Language Exchange Platform with 32 Unique UI Themes
-- ⚡ Tech Stack: React + Express + MongoDB + TailwindCSS + TanStack Query
-- 🧠 Global State Management with Zustand
-- 🚨 Error Handling (Frontend & Backend)
-- 🚀 Free Deployment
-- 🎯 Built with Scalable Technologies like Stream
-- ⏳ And much more!
+<p align="center">
+  🚀 AI DRIVEN SECURE USER TO USER CHAT APPLICATION
+</p>
 
 ---
 
-## 🧪 .env Setup
+## 🌟 Key Features
 
-### Backend (`/backend`)
+- 🌐 **Real-Time Messaging** with typing indicators, emoji reactions, and instant delivery
+- 📹 **1-on-1 & Group Video Calls** with screen sharing and recording support
+- 🔐 **JWT Authentication** with fully protected routes
+- 🎨 **32+ Unique UI Themes** for personalized user experience
+- 🌍 **Language Exchange Platform** built for multilingual communication
+- 💾 **State Management** using Zustand for predictable and scalable flow
+- ⚙️ **Fully Featured Backend** using Express.js, MongoDB, and REST APIs
+- 🧪 **Robust Error Handling** on both frontend and backend
+- 💡 **Built on Scalable Tech** like Stream API, TanStack Query, and TailwindCSS
+- 🌐 **Deployed for Free** — ready to use instantly!
 
-```
+---
+
+## 🧪 Environment Variables Setup
+
+### 🔙 Backend (`/backend`)
+
+Create a `.env` file inside `/backend` and add:
+
+```env
 PORT=5001
 MONGO_URI=your_mongo_uri
-STEAM_API_KEY=your_steam_api_key
-STEAM_API_SECRET=your_steam_api_secret
+STREAM_API_KEY=your_stream_api_key
+STREAM_API_SECRET=your_stream_api_secret
 JWT_SECRET_KEY=your_jwt_secret
 NODE_ENV=development
-```
-
-### Frontend (`/frontend`)
-
-```
-VITE_STREAM_API_KEY=your_stream_api_key
-```
-
----
-
-## 🔧 Run the Backend
-
-```bash
-cd backend
-npm install
-npm run dev
-```
-
-## 💻 Run the Frontend
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
