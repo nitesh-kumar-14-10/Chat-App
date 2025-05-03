@@ -1,8 +1,6 @@
 <h1 align="center">✨ Fullstack Chat & Video Calling App ✨</h1>
 
-<p align="center">
-  <img src="/frontend/public/screenshot-for-readme.png" alt="App Screenshot" width="700"/>
-</p>
+
 
 <p align="center">
   🚀 AI DRIVEN SECURE USER TO USER CHAT APPLICATION
