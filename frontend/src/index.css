@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.str-chat__channel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #1e3a8a, #0f172a); /* Dark blue gradient */
+  height: 100%;
+}
+
+.str-chat__container {
+  max-width: 1200px;
+  width: 100%;
+  height: 80% !important;
+  margin: 0 auto !important;
+  border-radius: 12px; /* Slightly larger radius for a smoother look */
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2); /* Increased shadow for better depth */
+  overflow: hidden;
+}
+
+.str-chat__list {
+  background-color: #2a2a2a; /* Dark gray for the message list background */
+  padding: 16px;
+  border-radius: 8px; /* Rounded corners for the message list */
+}
+
+.str-chat__list-notifications {
+  display: none;
+}
+
+.str-chat__message-input {
+  border-top: 1px solid #3b82f6; /* Blue border for input */
+  background-color: #1f2937; /* Dark background for input */
+  color: white; /* White text in the input */
+  padding: 12px;
+  border-radius: 8px; /* Rounded corners for input */
+}
+
+.str-chat__message-input:focus {
+  outline: none;
+  border-color: #2563eb; /* Brighter blue border on focus */
+}
+
+.str-chat__message-input textarea {
+  background-color: transparent; /* Ensure text area uses input background */
+}
+
+.str-chat__message-input .str-chat__send-button {
+  background-color: #2563eb; /* Blue send button */
+  color: white;
+  border-radius: 50%;
+  padding: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.str-chat__message-input .str-chat__send-button:hover {
+  background-color: #1d4ed8; /* Darker blue on hover */
+}
